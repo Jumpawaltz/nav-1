@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "parcel": "^1.12.4"
+  }
+}
