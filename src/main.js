@@ -11,7 +11,7 @@ const $lastLi = $siteList.find('li.last')
 const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 const hashMap = xObject || [
-    {logo: 'Y', url: 'https://www.yuque.cn', color: '#79889B'},
+    {logo: 'Y', url: 'https://www.yuque.com', color: '#79889B'},
     {logo: 'G', url: 'https://www.github.com', color: '#deb23a'}
 ]
 
