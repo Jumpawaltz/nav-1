@@ -131,12 +131,12 @@ var $lastLi = $siteList.find('li.last');
 var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
-  logo: 'A',
-  url: 'https://www.acfun.cn',
+  logo: 'Y',
+  url: 'https://www.yuque.cn',
   color: '#79889B'
 }, {
-  logo: 'B',
-  url: 'https://www.bilibili.com',
+  logo: 'G',
+  url: 'https://www.github.com',
   color: '#deb23a'
 }];
 
@@ -233,7 +233,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50259" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50624" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
